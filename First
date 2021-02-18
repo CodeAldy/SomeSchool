@@ -1,0 +1,10 @@
+let A = 9
+basic.showNumber(A)
+for (let index = 0; index < 9; index++) {
+    A += -1
+    basic.showNumber(A)
+}
+basic.clearScreen()
+basic.forever(function () {
+    basic.clearScreen()
+})
